@@ -1,0 +1,70 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+body {
+  color: honeydew;
+  background-color: darkslategray;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+.container {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 40%;
+}
+
+.random {
+  font-size: 16px;
+  margin: 5px;
+}
+
+.random a {
+  text-decoration: none;
+  color: navajowhite;
+}
+
+input, button {
+  color: honeydew;
+  outline: none;
+  border-radius: 10px;
+  border: 1px solid honeydew;
+  padding: 10px;
+  font-size: 16px;
+  background-color: darkslategrey;
+}
+
+button {
+  cursor: pointer;
+  background-color: teal;
+  border: 0px;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background-color: cadetblue;
+}
+
+#search-results {
+  color: darkslategray;
+  margin: 20px auto;
+  max-width: 800px;
+  text-align: left;
+}
+.search-result {
+  cursor: pointer;
+  margin: 20px;
+  padding: 20px;
+  background-color: honeydew;
+  border-radius: 10px;
+}
+.disabled {
+  cursor: auto;
+}
+.search-result:hover {
+  color: teal;
+}
+.disabled {
+  color: darkslategray;
+}
