@@ -1,0 +1,74 @@
+/* purple: #6441a5 */
+/* offline dimgray */
+@import url(https://fonts.googleapis.com/css?family=Anton);
+
+body{
+  background-color: darkslateblue;
+  margin: 0 auto;
+  text-align: center;
+  color: whitesmoke;
+  font-family: Helvetica Neue,Helvetica,sans-serif;
+}
+
+.stream-container{
+  min-width: 400px;
+  display: inline-block;
+  text-align: left;
+}
+
+.streamer-row, .header {
+  width: 100%;
+  margin: 10px;
+  font-size: 18px;
+  padding: 20px;
+  /* This works in IE 8 & 9 too */
+  /* ... but also 5, 6, 7 */
+  filter: alpha(opacity=80);
+
+  /* Modern Browsers */
+  opacity: 0.8;
+}
+
+.header{
+  text-align: center;
+  background-color: whitesmoke;
+  color: #6441a5;
+  font-size: 36px;
+  font-family: 'Anton', sans-serif;
+}
+
+.streamer-name, .streamer-status {
+  margin-top: 15px;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.streamer-logo{
+  width: 10%;
+}
+
+.streamer-logo img{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.streamer-name{
+  width: 30%;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.streamer-status{
+  width: 60%;
+}
+
+.online {
+  background-color: #6441a5;
+}
+
+.offline {
+  background-color: dimgray;
+  font-style: italic;
+}
