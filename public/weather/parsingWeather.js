@@ -32,7 +32,7 @@ function weatherTemp(temperature){
 }
 
 function getWeather(lat, long){
-  $.getJSON('api/weather/' + lat + '/' + long, function (data) {
+  $.getJSON('/api/weather/' + lat + '/' + long, function (data) {
     $('#loading').remove();
     weatherAlerts(data.alerts);
     weatherIcon(data.currently.icon);

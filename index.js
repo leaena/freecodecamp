@@ -18,9 +18,14 @@ app.use(parser.json());
 app.use('/api/weather', weather);
 
 app.get('/', function(req, res){
-   res.render('index.html');
+  res.render('index.html');
 });
-
+app.get('/weather', function(req, res){
+   res.render('weather/index.html');
+});
+app.get('/twitch', function(req, res){
+  res.render('twitch/index.html');
+});
 
 app.listen(app.get('port'), function (){
   console.log('Listening on ' + app.get('port'));

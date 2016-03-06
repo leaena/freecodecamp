@@ -2,25 +2,72 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>weather</title>
-  <link rel="shortcut icon" href="favicon.ico" />
-  <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
-  <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+  <title>Hello!</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" type="text/css">
   <link rel="stylesheet" href="main.css" type="text/css">
 </head>
 <body>
-  <canvas id="loading" class="loading" width="300" height="300"></canvas>
-  <div class="toast" id="weather-alert"></div>
-  <div class="container">
-    <canvas id="weather-icon" width="200" height="200"></canvas>
-    <div id="weather-summary"></div>
-    <div class="temp">
-      <span id="weather-temp"></span>
-      <span id="weather-degree"></span>
-      <a id="weather-units" href></a>
+  <div class="top-nav">
+    hello
+    <div class="slidingHorizontal">
+      <span>you</span>
+      <span>engineer</span>
+      <span>pretty</span>
+      <span>different</span>
+      <span>zombie</span>
+    </div>
+    <span class="links">
+      <a href="#splash">social</a>
+      <a href="#projects">projects</a>
+      <a href="#bio">about</a>
+    </span>
+  </div>
+  <section>
+    <a name="splash"></a>
+    <div class="content">
+      <h1>
+        hello, my name is <span class="hilight">Lindsey</span>
+      </h1>
+      <h2>
+        <a title="linkedin" href="http://linkedin.com/in/leaena" target="_blank">
+          <i class="fa fa-linkedin-square"></i>
+        </a>
+        <a title="github" href="http://github.com/leaena" target="_blank">
+          <i class="fa fa-github-square"></i>
+        </a>
+        <a title="twitter" href="http://twitter.com/leaena" target="_blank">
+          <i class="fa fa-twitter-square"></i>
+        </a>
+        <a title="blog" href="http://leaena.com" target="_blank">
+          <i class="fa fa-rss-square"></i>
+        </a>
+      </h2>
+    </div>
+  </section>
+  <section>
+    <a name="projects"></a>
+    <div class="content">
+      <div>
+        <a href="/quotes" target="_blank">
+          <img title="Tweet Quote Generator" width="400" height="250" src="/img/quotes.png">
+        </a>
+        <a href="/weather" target="_blank">
+          <img title="Locational Weather App" width="400" height="250" src="/img/weather.png">
+        </a>
+        <a href="/wiki" target="_blank">
+          <img title="Wiki Searching" width="400" height="250" src="/img/wiki.png">
+        </a>
+      </div>
+    </div>
+  </section>
+  <section>
+    <a name="bio"></a>
+    <div class="content">
+      <img class="me" height="300" src="/img/me.jpg"><br/>
+      fullstack software engineer, crazy cat lady<br>
+      lindsey [at] leaena.com
     </div>
   </div>
-  <script src="skycons.js"></script>
-  <script src="parsingWeather.js"></script>
 </body>
 </html>

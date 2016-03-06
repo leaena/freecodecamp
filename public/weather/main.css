@@ -1,0 +1,34 @@
+body{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  background-color: skyblue;
+  text-align: center;
+  font-size: 24px;
+  color: snow;
+}
+.loading, .container {
+  position: relative;
+  top: 50%;
+  transform: translateY(50%);
+}
+.toast {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.danger{
+  padding: 10px;
+  background-color: deeppink;
+  font-size: 24px;
+}
+.temp{
+  margin-top: 10px;
+}
+a {
+  color: snow;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
