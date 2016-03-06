@@ -58,6 +58,10 @@ section:nth-of-type(2n) {
   display: inline;
   text-indent: 8px;
 }
+/* 470px */
+@media screen and (max-width: 470px){
+   .slidingHorizontal { display: none; }
+}
 
 .slidingHorizontal span {
   animation: leftToRight 15s linear infinite 0s;
