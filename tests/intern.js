@@ -30,7 +30,7 @@ define({
 
 	// Name of the tunnel class to use for WebDriver tests.
 	// See <https://theintern.github.io/intern/#option-tunnel> for built-in options
-	tunnel: 'BrowserStackTunnel',
+	tunnel: 'NullTunnel',
 
 	// Configuration options for the module loader; any AMD configuration options supported by the AMD loader in use
 	// can be used here.
@@ -38,7 +38,7 @@ define({
 	// <https://theintern.github.io/intern/#option-useLoader> for instruction
 	loaderOptions: {
 		// Packages that should be registered with the loader in each testing environment
-		packages: [ { name: 'myPackage', location: '.' } ]
+		// packages: [ { name: 'myPackage', location: '.' } ]
 	},
 
 	// Non-functional test suite(s) to run in each browser
