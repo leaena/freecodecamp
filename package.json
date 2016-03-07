@@ -23,5 +23,8 @@
   },
   "engine": {
     "node": "5.7.0"
+  },
+  "devDependencies": {
+    "intern": "^3.0.6"
   }
 }
